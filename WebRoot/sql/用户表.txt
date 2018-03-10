@@ -1,0 +1,19 @@
+create table jzwx_user(
+	id int auto_increment primary key not null,
+	username varchar(20) not null unique,
+	password varchar(32) not null,
+	sex enum('男','女','保密') not null default '男',
+	email varchar(50) not null,
+	face varchar(255) not null,
+	regTime int not null 
+);
+
+create table jzwx_user(
+	id int primary key not null,//编号
+	username varchar(20) not null unique,//用户名
+	password char(32) not null,//密码
+	sex enum('男','女','保密') not null default '男',//性别
+	email varchar(50) not null,//邮箱
+	face varchar(255) not null,//头像
+	regTime int not null //注册时间
+)

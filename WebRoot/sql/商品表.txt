@@ -1,0 +1,96 @@
+create table jzwx_pro(
+	id int auto_increment primary key not null,
+	pName varchar(50) not null,
+	pSn varchar(50) not null,
+	pNum int not null default 0,
+	mPrice double(10,2) not null,
+	iPrice double(10,2) not null,
+	pDesc text null default NULL,
+	pImg varchar(255) not null,
+	pubTime date not null,
+	isShow int not null default 1,
+	isHot int not null default 0,
+	cId int not null,
+	constraint fk_id foreign key(cId) references jzwx_cate(id) 
+);
+
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('LG WD-N12435D 6公斤 静音DD变频滚筒洗衣机','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('LG 49LF5400-CA 49英寸 窄边 IPS硬屏 LED液晶电视 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('三星（SAMSUNG）UA58J50SW 58英寸 全高清LED电视 黑色 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('金羚（JINLING）XQG70S-B10D 7公斤 变频滚筒洗衣机超薄（白色）','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('LG 49LF5900-CA 49英寸智能 窄边 IPS硬屏 LED液晶电视(银色) ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('LG 43LF5900-CA 43英寸智能 窄边 IPS硬屏 LED液晶电视(银色) ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('LG 79UF9500-CA 79英寸4K高清3D无边硬屏网络智能液晶电视 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('博世（BOSCH） WLK202C01W 6.2公斤 变频 滚筒洗衣机 降噪 薄款（白色）','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('西门子（SIEMENS）WM12P2C01W 9公斤 变频滚筒洗衣机 (白色)XQG90-','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('LG WD-H12428D 7公斤 DD变频滚筒洗衣机 （银色）WD-H12428D' ,'1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('三星（SAMSUNG）UA55JU6400J 55英寸 4K超高清智能电视 黑色','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('LG WD-A14398DS 8公斤 洗烘一体 DD变频 滚筒洗衣机 （银色）','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,1);
+
+
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('A家家具 床 实木床','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('布雷尔 沙发 布艺沙发','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('日默瓦家具 床 实木床','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('千品雅家具 床','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('纯森 沙发 真皮沙发 组合客厅','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('新尚人 简约现代布艺沙发组合','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('乐悠居 沙发 布艺沙发转角组合','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('六家铺 床 实木床 橡木1.8米','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('利索卧室家具 简约现代皮床进口头层真皮床 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('朵菲尔 家具 床 皮床 皮艺床','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('骏通宝木林 实木床儿童床','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,2);
+
+
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('百草味 坚果炒货 干果零食','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('百草味 坚果炒货 干果零食','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('百草味 牛肉干肉脯 五香牛肉条','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('喻之味麻辣牛肉干100g 川味美食','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('百草味 麻薯糕点','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('【周黑鸭官方旗舰店】鸭锁骨 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('百草味 糕点 麻薯抹茶味210g/袋','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('百草味 坚果炒货 巴西松子零食','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('西藏奇圣 风干 牛肉干','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('内蒙古科尔沁 休闲零食 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('廖记棒棒鸡 四川特产','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,3);
+
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('HTC新渴望8系列','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('小米 红米Note 2','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('荣耀 6 (H60-L01)','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('小米 4','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('乐视（Letv）乐1（X600）','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('小米 Note','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('小米 4c 高配版 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('小米 红米Note 增强版','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('华为 麦芒4 晨曦金','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('小辣椒 红辣椒任性版 ,'1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('奇酷（QiKU） 青春版','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('荣耀 7 (PLK-AL10) 3GB内存增强版','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,4);
+
+
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('皇厚服饰毛呢背心裙2015秋冬新款 修身','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('Gurun Vani 秋冬装长袖T桖男 圆领男士T','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('BURBERRY 巴宝莉 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('Dirs 男装秋冬装男士长袖t恤男韩版修身简','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('幸福时光 秋冬装长袖T恤男','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('MAH 加绒长袖t恤男2015秋冬','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('薇拉风2015秋新款女装两件套','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('Hizze 连衣裙冬长袖2015秋季','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('衣与草2015秋冬装新款女装长袖印花连衣','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('Gurunvani2015新款 日系休闲长袖T恤潮 ','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+insert into jzwx_pro(pName,pSn,pNum,mPrice,iPrice,pDesc,pImg,pubTime,isShow,isHot,cId) values('皓杨男装 2015秋冬款新品男装 韩版非主','1',100,2000.00,1899.00,'设计之初，就希望S6能够让人爱不释手，但爱不释手谈何容易.为尽量接近甚至达到这种效果，在喷砂工艺环节就经过218次喷砂调试，最终才选定砂型。在经过层层工艺环节严格把控，方成S6细腻触感','images/banner/banner_sm_01.jpg','2015-01-01 10:24:00',1,1,5);
+
+
+create table jzwx_pro(
+	id int primary key not null,//商品编号
+	pName varchar(50) not null,//商品名称
+	pSn varchar(50) not null,//商品货号
+	pNum int not null,//商品数量 默认值为0
+	mPrice double(10,2) not null,//市场价
+	iPrice double(10,2) not null,//网站价
+	pDesc text not null,//商品简介默认值为NULL
+	pImg varchar(255) not null,//商品图片
+	pubTime int not null,//商品上架时间
+	isShow int not null,//商品是否上架 默认值为1
+	isHot int not null,//销量好的商品 默认值为0
+	cId int not null//所属分类ID
+)

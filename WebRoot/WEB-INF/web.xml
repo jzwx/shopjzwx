@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Vali</servlet-name>
+    <servlet-class>com.shopjzwx.Vali</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>com.shopjzwx.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignOut</servlet-name>
+    <servlet-class>com.shopjzwx.SignOut</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAdminAction</servlet-name>
+    <servlet-class>com.shopjzwx.doAdminAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditAdmin</servlet-name>
+    <servlet-class>com.shopjzwx.EditAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelAdmin</servlet-name>
+    <servlet-class>com.shopjzwx.DelAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCate</servlet-name>
+    <servlet-class>com.shopjzwx.AddCate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditCate</servlet-name>
+    <servlet-class>com.shopjzwx.EditCate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelCate</servlet-name>
+    <servlet-class>com.shopjzwx.DelCate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPro</servlet-name>
+    <servlet-class>com.shopjzwx.AddPro</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelPro</servlet-name>
+    <servlet-class>com.shopjzwx.DelPro</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditPro</servlet-name>
+    <servlet-class>com.shopjzwx.EditPro</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowDetail</servlet-name>
+    <servlet-class>com.shopjzwx.ShowDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Reg</servlet-name>
+    <servlet-class>com.shopjzwx.Reg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.shopjzwx.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUser</servlet-name>
+    <servlet-class>com.shopjzwx.AddUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelUser</servlet-name>
+    <servlet-class>com.shopjzwx.DelUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditUser</servlet-name>
+    <servlet-class>com.shopjzwx.EditUser</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Vali</servlet-name>
+    <url-pattern>/vali.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/adminlogin.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignOut</servlet-name>
+    <url-pattern>/signout.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAdminAction</servlet-name>
+    <url-pattern>/doadminaction.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditAdmin</servlet-name>
+    <url-pattern>/editadmin.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelAdmin</servlet-name>
+    <url-pattern>/deladmin.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCate</servlet-name>
+    <url-pattern>/addcate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditCate</servlet-name>
+    <url-pattern>/editcate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCate</servlet-name>
+    <url-pattern>/delCate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPro</servlet-name>
+    <url-pattern>/addpro.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelPro</servlet-name>
+    <url-pattern>/delpro.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPro</servlet-name>
+    <url-pattern>/editpro.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowDetail</servlet-name>
+    <url-pattern>/showdetail.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Reg</servlet-name>
+    <url-pattern>/reg.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUser</servlet-name>
+    <url-pattern>/adduser.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelUser</servlet-name>
+    <url-pattern>/delUser.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditUser</servlet-name>
+    <url-pattern>/edituser.bin</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>AdminLogin.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

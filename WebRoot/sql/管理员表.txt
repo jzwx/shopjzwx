@@ -1,0 +1,9 @@
+create table jzwx_admin(
+	id int primary key not null,
+	username varchar(20) not null,
+	password varchar(32) not null,
+	Email varchar(50) not null
+);
+
+insert into jzwx_admin values(1,'admin','111','254866196@qq.com');
+insert into jzwx_admin values(2,'jzwx','222','2058631403@qq.com');

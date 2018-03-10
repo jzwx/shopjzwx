@@ -1,0 +1,9 @@
+create table jzwx_cate(
+	id int auto_increment primary key not null,
+	cName varchar(30) not null
+);
+insert into jzwx_cate(cName) values('家用电器');
+insert into jzwx_cate(cName) values('精品家具');
+insert into jzwx_cate(cName) values('美食诱惑');
+insert into jzwx_cate(cName) values('数码产品');
+insert into jzwx_cate(cName) values('服装专区');

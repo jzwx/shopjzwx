@@ -1,0 +1,65 @@
+create table jzwx_album(
+	id int auto_increment primary key not null,
+	pid int not null,
+	albumPath varchar(50) not null
+);
+
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(1,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+
+
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(2,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(3,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(4,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
+insert into jzwx_album(pid,albumPath) values(5,'images/5677a769720af6854e18e3c6d91f5bf3.jpg');
